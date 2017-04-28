@@ -1,0 +1,30 @@
+{
+  "name" : "e-commerce-passaro/site",
+  "description" : "Essa é uma biblioteca para gerenciamento de um site e-commerce",
+  "version": "0.0.1",
+  "type":"library",
+  "homepage":"https://github.com/e-commerce-passaro/site",
+  "time":"2017-04-28 09:29:01",
+  "license":"GPL-3.0+",
+  "authors":[{
+	"name":"Marcel Bezerra da Silva",
+	"email":"marcelbzrra@gmail.com",
+	"role":"developer"
+  }],
+  "support": {
+  	"email":"marcelbzrra@gmail.com",
+  	"issues":"https://github.com/e-commerce-passaro/site/issues",
+  	"wiki":"https://github.com/e-commerce-passaro/site/wiki",
+  	"source":"https://github.com/e-commerce-passaro/site/releases"
+  },
+  "require" : {
+    "php" : ">=7.0",
+	"zendframework/zend-db" : "2.8.2"
+  },
+  "keywords" : [ "e-commerce-passaro", "zf3", "ecommerce", "site" ],
+  "autoload": {
+        "psr-4": {
+            "Ecompassaro\\Site\\": "./src/Site"
+        }
+  }
+}
